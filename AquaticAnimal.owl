@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/thanakrit/ontologies/2019/9/AquaticAnimal"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/thanakrit/ontologies/2019/9/AquaticAnimal">
+    <Prefix name="" IRI="http://www.semanticweb.org/thanakrit/ontologies/2019/9/AquaticAnimal"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AquaticAnimal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Being"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carnivore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cetaceans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConservationStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Continent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourtshipDisplay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dolphin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Econological"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fissipeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Herbivore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LandAnimal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LivingBehavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarineImmammal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarineMamals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ocean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Omnivore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Otter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pinnipeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plankton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Predator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeaCow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeaLion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SingleCelledOrganism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sirenians"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Walrus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whale"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCourtingBehavior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEcological"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHomeLandContinent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLivingBehavior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOcean"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isHarm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInClade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLivinIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOverlapIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsuallyFound"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAverageDeathPerYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAveragePopulation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isServed"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Animal"/>
+        <Class IRI="#Being"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AquaticAnimal"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bear"/>
+        <Class IRI="#MarineMamals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carnivore"/>
+        <Class IRI="#Econological"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cetaceans"/>
+        <Class IRI="#LivingBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dolphin"/>
+        <Class IRI="#MarineMamals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fissipeds"/>
+        <Class IRI="#LivingBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Herbivore"/>
+        <Class IRI="#Econological"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LandAnimal"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarineImmammal"/>
+        <Class IRI="#AquaticAnimal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarineMamals"/>
+        <Class IRI="#AquaticAnimal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Omnivore"/>
+        <Class IRI="#Econological"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Otter"/>
+        <Class IRI="#MarineMamals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pinnipeds"/>
+        <Class IRI="#LivingBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plankton"/>
+        <Class IRI="#SingleCelledOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plant"/>
+        <Class IRI="#Being"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Predator"/>
+        <Class IRI="#Being"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prey"/>
+        <Class IRI="#Being"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeaCow"/>
+        <Class IRI="#MarineMamals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeaLion"/>
+        <Class IRI="#MarineMamals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seal"/>
+        <Class IRI="#MarineMamals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SingleCelledOrganism"/>
+        <Class IRI="#MarineImmammal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sirenians"/>
+        <Class IRI="#LivingBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walrus"/>
+        <Class IRI="#MarineMamals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whale"/>
+        <Class IRI="#MarineMamals"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Animal"/>
+        <Class IRI="#Plant"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasOcean"/>
+        <ObjectProperty IRI="#isOverlapIn"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <Class IRI="#MarineMamals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCourtingBehavior"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEcological"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFur"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHomeLandContinent"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLivingBehavior"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOcean"/>
+        <Class IRI="#Continent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isHarm"/>
+        <Class IRI="#MarineMamals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInClade"/>
+        <Class IRI="#Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLivinIn"/>
+        <Class IRI="#MarineMamals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isOverlapIn"/>
+        <Class IRI="#Ocean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUsuallyFound"/>
+        <Class IRI="#MarineMamals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <Class IRI="#ConservationStatus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCourtingBehavior"/>
+        <Class IRI="#CourtshipDisplay"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEcological"/>
+        <Class IRI="#Econological"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFur"/>
+        <Class IRI="#Fur"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHomeLandContinent"/>
+        <Class IRI="#Continent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLivingBehavior"/>
+        <Class IRI="#LivingBehavior"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOcean"/>
+        <Class IRI="#Ocean"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInClade"/>
+        <Class IRI="#Clade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLivinIn"/>
+        <Class IRI="#Ocean"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <Class IRI="#Continent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isOverlapIn"/>
+        <Class IRI="#Continent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUsuallyFound"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAverageDeathPerYear"/>
+        <Class IRI="#MarineMamals"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAveragePopulation"/>
+        <Class IRI="#MarineMamals"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isServed"/>
+        <Class IRI="#MarineMamals"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAverageDeathPerYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAveragePopulation"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isServed"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
