@@ -12,14 +12,15 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This ontology is about a aquatic animals.</Literal>
+    </Annotation>
     <Declaration>
         <Class IRI="#Animal"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AquaticAnimal"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Bear"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Being"/>
@@ -70,7 +71,7 @@
         <Class IRI="#MarineImmammal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ocean"/>
@@ -89,6 +90,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PolarBear"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Predator"/>
@@ -139,6 +143,9 @@
         <ObjectProperty IRI="#hasOcean"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isBondedByContinent"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isHarm"/>
     </Declaration>
     <Declaration>
@@ -151,9 +158,6 @@
         <ObjectProperty IRI="#isLocatedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isOverlapIn"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#isUsuallyFound"/>
     </Declaration>
     <Declaration>
@@ -163,7 +167,10 @@
         <DataProperty IRI="#hasAveragePopulation"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#isServed"/>
+        <NamedIndividual IRI="#Dugong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manatee"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Animal"/>
@@ -172,10 +179,6 @@
     <SubClassOf>
         <Class IRI="#AquaticAnimal"/>
         <Class IRI="#Animal"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Bear"/>
-        <Class IRI="#MarineMamals"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Carnivore"/>
@@ -187,7 +190,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dolphin"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fissipeds"/>
@@ -206,7 +209,7 @@
         <Class IRI="#AquaticAnimal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
         <Class IRI="#AquaticAnimal"/>
     </SubClassOf>
     <SubClassOf>
@@ -215,7 +218,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Otter"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pinnipeds"/>
@@ -230,6 +233,10 @@
         <Class IRI="#Being"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#PolarBear"/>
+        <Class IRI="#MarineMammals"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Predator"/>
         <Class IRI="#Being"/>
     </SubClassOf>
@@ -239,15 +246,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SeaCow"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SeaLion"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Seal"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SingleCelledOrganism"/>
@@ -259,23 +266,31 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Walrus"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Whale"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Animal"/>
         <Class IRI="#Plant"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#SeaCow"/>
+        <NamedIndividual IRI="#Dugong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeaCow"/>
+        <NamedIndividual IRI="#Manatee"/>
+    </ClassAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="#hasOcean"/>
-        <ObjectProperty IRI="#isOverlapIn"/>
+        <ObjectProperty IRI="#isBondedByContinent"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasConservationStatus"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasCourtingBehavior"/>
@@ -302,8 +317,12 @@
         <Class IRI="#Continent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBondedByContinent"/>
+        <Class IRI="#Ocean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#isHarm"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isInClade"/>
@@ -311,19 +330,15 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isLivinIn"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isLocatedIn"/>
         <Class IRI="#Country"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isOverlapIn"/>
-        <Class IRI="#Ocean"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#isUsuallyFound"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasConservationStatus"/>
@@ -354,6 +369,10 @@
         <Class IRI="#Ocean"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBondedByContinent"/>
+        <Class IRI="#Continent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#isInClade"/>
         <Class IRI="#Clade"/>
     </ObjectPropertyRange>
@@ -366,24 +385,16 @@
         <Class IRI="#Continent"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#isOverlapIn"/>
-        <Class IRI="#Continent"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#isUsuallyFound"/>
         <Class IRI="#Country"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#hasAverageDeathPerYear"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hasAveragePopulation"/>
-        <Class IRI="#MarineMamals"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#isServed"/>
-        <Class IRI="#MarineMamals"/>
+        <Class IRI="#MarineMammals"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#hasAverageDeathPerYear"/>
@@ -393,10 +404,251 @@
         <DataProperty IRI="#hasAveragePopulation"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#isServed"/>
-        <Datatype abbreviatedIRI="xsd:boolean"/>
-    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Animal</IRI>
+        <Literal xml:lang="en">Living creature that is animal kingdom.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AquaticAnimal</IRI>
+        <Literal xml:lang="en">The animal that lives in the water.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Carnivore</IRI>
+        <Literal xml:lang="en">The animal that feeds on flesh.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cetaceans</IRI>
+        <Literal xml:lang="en">The marine mammal of the order Cetacea ; a whale, dolphin, or porpoise.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Clade</IRI>
+        <Literal xml:lang="en">The group of organisms believed to have evolved from a common ancestor, according to the principles of cladistics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConservationStatus</IRI>
+        <Literal xml:lang="en">The group of organisms (for instance, a species) indicates whether the group still exists and how likely the group is to become extinct in the near future.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Continent</IRI>
+        <Literal xml:lang="en">Any of the world&apos;s main continuous expanses of land (Africa, Antarctica, Asia, Australia, Europe, North America, South America).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Country</IRI>
+        <Literal xml:lang="en">The nation with its own government, occupying a particular territory.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CourtshipDisplay</IRI>
+        <Literal xml:lang="en">Set of display behaviors in which an animal attempts to attract a mate and exhibit their desire to copulate. These behaviors often include ritualized movement (&quot;dances&quot;), vocalizations, mechanical sound production, or displays of beauty, strength, or agonistic ability.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dolphin</IRI>
+        <Literal xml:lang="en">The small gregarious toothed whale that typically has a beaklike snout and a curved fin on the back. It&apos;s become well know for their sociable nature and high intelligence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Econological</IRI>
+        <Literal xml:lang="en">Relating to or concerned with the relation of living organisms to one another and to their physical surroundings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fissipeds</IRI>
+        <Literal xml:lang="en">Any member of the suborder Fissipedia, carnivorous mammals that have separate toes, as bears, badgers, dogs, cats, and raccoons.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fur</IRI>
+        <Literal xml:lang="en">The short, fine, soft hair of certain animals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Herbivore</IRI>
+        <Literal xml:lang="en">The animal that feeds on plants.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LandAnimal</IRI>
+        <Literal xml:lang="en">The animal that lives in the land.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LivingBehavior</IRI>
+        <Literal xml:lang="en">The animal&apos;s behavior which infers as activities on the land in short or long interval of time due to their physicals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MarineImmammal</IRI>
+        <Literal xml:lang="en">The aquatic immammals that rely on the ocean.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MarineMammals</IRI>
+        <Literal xml:lang="en">The aquatic mammals that rely on the ocean.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ocean</IRI>
+        <Literal xml:lang="en">The very large expanse of sea, in particular each of the main areas into which the sea is divided geographically.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Omnivore</IRI>
+        <Literal xml:lang="en">The animal or person that eats food of both plant and animal origin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Otter</IRI>
+        <Literal xml:lang="en">The semiaquatic fish-eating mammal of the weasel family, with an elongated body, dense fur and webbed feet.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pinnipeds</IRI>
+        <Literal xml:lang="en">The carnivorous aquatic mammal of the order Pinnipedia, such as a seal or walrus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Plankton</IRI>
+        <Literal xml:lang="en">The small and microscopic organism drifting or floating in the sea or fresh water.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Plant</IRI>
+        <Literal xml:lang="en">The living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses, typically growing in a permanent site, absorbing water and inorganic substances through its roots, and synthesizing nutrients in its leaves by photosynthesis using the green pigment chlorophyll.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PolarBear</IRI>
+        <Literal xml:lang="en">The large white arctic bear which lives mainly on the pack ice.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Predator</IRI>
+        <Literal xml:lang="en">The animal that naturally preys on others.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prey</IRI>
+        <Literal xml:lang="en">The animal that is hunted and killed by another for food.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeaCow</IRI>
+        <Literal xml:lang="en">The sirenian, especially a manatee.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeaLion</IRI>
+        <Literal xml:lang="en">The eared seal occurring mainly on Pacific coasts, The large male of which has a mane on the neck and shoulders.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Seal</IRI>
+        <Literal xml:lang="en">The fish-eating aquatic mammal with a streamlined body and feet devoloped as flippers, returning to land to breed or rest.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SingleCelledOrganism</IRI>
+        <Literal xml:lang="en">The organism which lives in ocean and consists of a single cell.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sirenians</IRI>
+        <Literal xml:lang="en">The large aquatic plant-eating mammal of the order Sirenia, such as a manatee or dugong.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Walrus</IRI>
+        <Literal xml:lang="en">The large gregarious marine mammal related to the eared seals, having two large downward-pointing tusks and found in the Arctic Ocean.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Whale</IRI>
+        <Literal xml:lang="en">The very large marine mammal with a streamlined hairless body, a horizontal tail fin, and a blowhole on top of the head for breathing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAverageDeathPerYear</IRI>
+        <Literal xml:lang="en">The ratio of total deaths to total population in a specified area over a specified period of time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAveragePopulation</IRI>
+        <Literal xml:lang="en">The ratio of total population in a specified area over a specified period of time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasConservationStatus</IRI>
+        <Literal xml:lang="en">The property relation of MarineMammals -  ConservationStatus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCourtingBehavior</IRI>
+        <Literal xml:lang="en">The property relation of Animal - CourtshipDisplay.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEcological</IRI>
+        <Literal xml:lang="en">The property relation of Animal - Econological.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFur</IRI>
+        <Literal xml:lang="en">The property relation of Animal - Fur.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasHomeLandContinent</IRI>
+        <Literal xml:lang="en">The property relation of Animal - Continent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasLivingBehavior</IRI>
+        <Literal xml:lang="en">The property relation of Animal - LivingBehavior.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasOcean</IRI>
+        <Literal xml:lang="en">A property tree relation of Continent - Ocean</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isBondedByContinent</IRI>
+        <Literal xml:lang="en">The inverse property tree to hasOcean</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isHarm</IRI>
+        <Literal xml:lang="en">In case of animals harm other animals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isInClade</IRI>
+        <Literal xml:lang="en">The property relation of Being - Clade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isLivinIn</IRI>
+        <Literal xml:lang="en">The property relation of MarineMammals - Ocean.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isLocatedIn</IRI>
+        <Literal xml:lang="en">The property relation of Country - Continent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isUsuallyFound</IRI>
+        <Literal xml:lang="en">The property relation of MarineMammals - Country.</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
