@@ -14,7 +14,7 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">This ontology is about a aquatic animals.</Literal>
+        <Literal xml:lang="en">This ontology is about an aquatic animals.</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#Animal"/>
@@ -30,9 +30,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Cetaceans"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Clade"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ConservationStatus"/>
@@ -51,6 +48,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Econological"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fissipeds"/>
@@ -152,7 +152,7 @@
         <ObjectProperty IRI="#isHarm"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isInClade"/>
+        <ObjectProperty IRI="#isInFamily"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isLivinIn"/>
@@ -170,7 +170,34 @@
         <DataProperty IRI="#hasAveragePopulation"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Africa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AmericaCountry"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#AmericanPolarBear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antarctic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antarctica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arctic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atlantic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Australia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AustraliaCountry"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#BeardedSeal"/>
@@ -185,13 +212,37 @@
         <NamedIndividual IRI="#BowheadWhale"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#CR"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#CaliforniaSeaLion"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#CommonBottlenoseDolphin"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#DisplayOfAgonisticAbility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DisplayOfBeauty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DisplayOfStrength"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Dugong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EX"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Europe"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#FalseKillerWhale"/>
@@ -218,8 +269,80 @@
         <NamedIndividual IRI="#HourglassDolphin"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Indian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MechanicalSoundProduction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monodontidae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NorthAmerica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pacific"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phocidae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RitualizedMovement"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#SiberianPolarBear"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SouthAmerica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ursidae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vocalization"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#ConservationStatus"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#CR"/>
+            <NamedIndividual IRI="#EN"/>
+            <NamedIndividual IRI="#EW"/>
+            <NamedIndividual IRI="#LC"/>
+            <NamedIndividual IRI="#NT"/>
+            <NamedIndividual IRI="#VU"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Continent"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Africa"/>
+            <NamedIndividual IRI="#Antarctica"/>
+            <NamedIndividual IRI="#Asia"/>
+            <NamedIndividual IRI="#Australia"/>
+            <NamedIndividual IRI="#Europe"/>
+            <NamedIndividual IRI="#NorthAmerica"/>
+            <NamedIndividual IRI="#SouthAmerica"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ocean"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Antarctic"/>
+            <NamedIndividual IRI="#Arctic"/>
+            <NamedIndividual IRI="#Atlantic"/>
+            <NamedIndividual IRI="#Indian"/>
+            <NamedIndividual IRI="#Pacific"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Animal"/>
         <Class IRI="#Being"/>
@@ -329,8 +452,44 @@
         <Class IRI="#Plant"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="#Continent"/>
+        <NamedIndividual IRI="#Africa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#AmericaCountry"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#PolarBear"/>
         <NamedIndividual IRI="#AmericanPolarBear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ocean"/>
+        <NamedIndividual IRI="#Antarctic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Continent"/>
+        <NamedIndividual IRI="#Antarctica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ocean"/>
+        <NamedIndividual IRI="#Arctic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Continent"/>
+        <NamedIndividual IRI="#Asia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ocean"/>
+        <NamedIndividual IRI="#Atlantic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Continent"/>
+        <NamedIndividual IRI="#Australia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#AustraliaCountry"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Seal"/>
@@ -349,6 +508,10 @@
         <NamedIndividual IRI="#BowheadWhale"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#ConservationStatus"/>
+        <NamedIndividual IRI="#CR"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#SeaLion"/>
         <NamedIndividual IRI="#CaliforniaSeaLion"/>
     </ClassAssertion>
@@ -357,8 +520,36 @@
         <NamedIndividual IRI="#CommonBottlenoseDolphin"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#CourtshipDisplay"/>
+        <NamedIndividual IRI="#DisplayOfAgonisticAbility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CourtshipDisplay"/>
+        <NamedIndividual IRI="#DisplayOfBeauty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CourtshipDisplay"/>
+        <NamedIndividual IRI="#DisplayOfStrength"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#SeaCow"/>
         <NamedIndividual IRI="#Dugong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConservationStatus"/>
+        <NamedIndividual IRI="#EN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConservationStatus"/>
+        <NamedIndividual IRI="#EW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConservationStatus"/>
+        <NamedIndividual IRI="#EX"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Continent"/>
+        <NamedIndividual IRI="#Europe"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Whale"/>
@@ -393,13 +584,158 @@
         <NamedIndividual IRI="#HourglassDolphin"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Ocean"/>
+        <NamedIndividual IRI="#Indian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConservationStatus"/>
+        <NamedIndividual IRI="#LC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CourtshipDisplay"/>
+        <NamedIndividual IRI="#MechanicalSoundProduction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Monodontidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConservationStatus"/>
+        <NamedIndividual IRI="#NT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Continent"/>
+        <NamedIndividual IRI="#NorthAmerica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ocean"/>
+        <NamedIndividual IRI="#Pacific"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Phocidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CourtshipDisplay"/>
+        <NamedIndividual IRI="#RitualizedMovement"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#PolarBear"/>
         <NamedIndividual IRI="#SiberianPolarBear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Continent"/>
+        <NamedIndividual IRI="#SouthAmerica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Ursidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConservationStatus"/>
+        <NamedIndividual IRI="#VU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CourtshipDisplay"/>
+        <NamedIndividual IRI="#Vocalization"/>
     </ClassAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="#hasOcean"/>
         <ObjectProperty IRI="#isBondedByContinent"/>
     </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasEcological"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasHomeLandContinent"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasLivingBehavior"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </FunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasCourtingBehavior"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasEcological"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasFur"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasHomeLandContinent"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasLivingBehavior"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasOcean"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isBondedByContinent"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isHarm"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isInFamily"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isLivinIn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isUsuallyFound"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasCourtingBehavior"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasEcological"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasFur"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasHomeLandContinent"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasLivingBehavior"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasOcean"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isBondedByContinent"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isHarm"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isInFamily"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isLivinIn"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isUsuallyFound"/>
+    </IrreflexiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasConservationStatus"/>
         <Class IRI="#MarineMammals"/>
@@ -437,7 +773,7 @@
         <Class IRI="#MarineMammals"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isInClade"/>
+        <ObjectProperty IRI="#isInFamily"/>
         <Class IRI="#Being"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -485,8 +821,8 @@
         <Class IRI="#Continent"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#isInClade"/>
-        <Class IRI="#Clade"/>
+        <ObjectProperty IRI="#isInFamily"/>
+        <Class IRI="#Family"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isLivinIn"/>
@@ -528,6 +864,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CR</IRI>
+        <Literal xml:lang="en">Critically Endangered</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Carnivore</IRI>
         <Literal xml:lang="en">The animal that feeds on flesh.</Literal>
     </AnnotationAssertion>
@@ -535,11 +876,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Cetaceans</IRI>
         <Literal xml:lang="en">The marine mammal of the order Cetacea ; a whale, dolphin, or porpoise.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Clade</IRI>
-        <Literal xml:lang="en">The group of organisms believed to have evolved from a common ancestor, according to the principles of cladistics.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -568,8 +904,28 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EN</IRI>
+        <Literal xml:lang="en">Endangered</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EW</IRI>
+        <Literal xml:lang="en">Extinct in the wild</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EX</IRI>
+        <Literal xml:lang="en">extinct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Econological</IRI>
         <Literal xml:lang="en">Relating to or concerned with the relation of living organisms to one another and to their physical surroundings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Family</IRI>
+        <Literal xml:lang="en">Family (Latin: familia, plural familiae) is one of the eight major hierarchical taxonomic ranks in Linnaean taxonomy; it is classified between order and genus. A family may be divided into subfamilies, which are intermediate ranks between the ranks of family and genus. The official family names are Latin in origin; however, popular names are often used: for example, walnut trees and hickory trees belong to the family Juglandaceae, but that family is commonly referred to as being the &quot;walnut family&quot;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -585,6 +941,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Herbivore</IRI>
         <Literal xml:lang="en">The animal that feeds on plants.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LC</IRI>
+        <Literal xml:lang="en">Least Concern</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -605,6 +966,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#MarineMammals</IRI>
         <Literal xml:lang="en">The aquatic mammals that rely on the ocean.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NT</IRI>
+        <Literal xml:lang="en">Near threatened</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -678,6 +1044,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VU</IRI>
+        <Literal xml:lang="en">Vulnerable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Walrus</IRI>
         <Literal xml:lang="en">The large gregarious marine mammal related to the eared seals, having two large downward-pointing tusks and found in the Arctic Ocean.</Literal>
     </AnnotationAssertion>
@@ -743,7 +1114,7 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#isInClade</IRI>
+        <IRI>#isInFamily</IRI>
         <Literal xml:lang="en">The property relation of Being - Clade.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
