@@ -68,6 +68,9 @@
         <Class IRI="#LivingBehavior"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Manatee"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#MarineImmammal"/>
     </Declaration>
     <Declaration>
@@ -167,10 +170,55 @@
         <DataProperty IRI="#hasAveragePopulation"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#AmericanPolarBear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BeardedSeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BelugaWhale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BlueWhale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BowheadWhale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaliforniaSeaLion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CommonBottlenoseDolphin"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Dugong"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Manatee"/>
+        <NamedIndividual IRI="#FalseKillerWhale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GraySeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GrayWhale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GuadalupeFurSeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HaborSeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HarpSeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HawaiianMonkSeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HourglassDolphin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SiberianPolarBear"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Animal"/>
@@ -203,6 +251,10 @@
     <SubClassOf>
         <Class IRI="#LandAnimal"/>
         <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manatee"/>
+        <Class IRI="#SeaCow"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MarineImmammal"/>
@@ -277,12 +329,72 @@
         <Class IRI="#Plant"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="#PolarBear"/>
+        <NamedIndividual IRI="#AmericanPolarBear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seal"/>
+        <NamedIndividual IRI="#BeardedSeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whale"/>
+        <NamedIndividual IRI="#BelugaWhale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whale"/>
+        <NamedIndividual IRI="#BlueWhale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whale"/>
+        <NamedIndividual IRI="#BowheadWhale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeaLion"/>
+        <NamedIndividual IRI="#CaliforniaSeaLion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dolphin"/>
+        <NamedIndividual IRI="#CommonBottlenoseDolphin"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#SeaCow"/>
         <NamedIndividual IRI="#Dugong"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#SeaCow"/>
-        <NamedIndividual IRI="#Manatee"/>
+        <Class IRI="#Whale"/>
+        <NamedIndividual IRI="#FalseKillerWhale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seal"/>
+        <NamedIndividual IRI="#GraySeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whale"/>
+        <NamedIndividual IRI="#GrayWhale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seal"/>
+        <NamedIndividual IRI="#GuadalupeFurSeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seal"/>
+        <NamedIndividual IRI="#HaborSeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seal"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seal"/>
+        <NamedIndividual IRI="#HawaiianMonkSeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dolphin"/>
+        <NamedIndividual IRI="#HourglassDolphin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PolarBear"/>
+        <NamedIndividual IRI="#SiberianPolarBear"/>
     </ClassAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="#hasOcean"/>
