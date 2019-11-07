@@ -979,7 +979,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Habitat</IRI>
-        <Literal xml:lang="en">The animal&apos;s behavior which infers as activities on the land in short or long interval of time due to their physicals.</Literal>
+        <Literal xml:lang="en">The animal&apos;s habitat.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
