@@ -266,7 +266,13 @@
         <NamedIndividual IRI="#HourglassDolphin"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#HumpbackWhale"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Indian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JuanFurnandezFurSeal"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Land"/>
@@ -275,10 +281,25 @@
         <NamedIndividual IRI="#LeastConcern"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#LeopardSeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LongFinnedPilotWhale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MarineOtter"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#MechanicalSoundProduction"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#MinkeWhale"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Monodontidae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Narwhal"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#NearThreatened"/>
@@ -287,16 +308,34 @@
         <NamedIndividual IRI="#NorthAmerica"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#NorthAtlanticRightWhale"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Omnivore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Orca"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pacific"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#PantropicalSpottedDolphin"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Phocidae"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#RingedSeal"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#RitualizedMovement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeaOtter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ShortBeakedCommonDolphin"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SiberianPolarBear"/>
@@ -305,7 +344,22 @@
         <NamedIndividual IRI="#SouthAmerica"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SouthernElephantSeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpermWhale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpinnerDolphin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StellerSeaLion"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Ursidae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vaquita"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Vocalization"/>
@@ -315,6 +369,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Water"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WestIndianManatee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Risso&apos;sDolphin"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#ConservationStatus"/>
@@ -566,8 +626,16 @@
         <NamedIndividual IRI="#HourglassDolphin"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Whale"/>
+        <NamedIndividual IRI="#HumpbackWhale"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Ocean"/>
         <NamedIndividual IRI="#Indian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seal"/>
+        <NamedIndividual IRI="#JuanFurnandezFurSeal"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Habitat"/>
@@ -578,12 +646,32 @@
         <NamedIndividual IRI="#LeastConcern"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Seal"/>
+        <NamedIndividual IRI="#LeopardSeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whale"/>
+        <NamedIndividual IRI="#LongFinnedPilotWhale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Otter"/>
+        <NamedIndividual IRI="#MarineOtter"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#CourtshipDisplay"/>
         <NamedIndividual IRI="#MechanicalSoundProduction"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Whale"/>
+        <NamedIndividual IRI="#MinkeWhale"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Family"/>
         <NamedIndividual IRI="#Monodontidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whale"/>
+        <NamedIndividual IRI="#Narwhal"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ConservationStatus"/>
@@ -594,20 +682,44 @@
         <NamedIndividual IRI="#NorthAmerica"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Whale"/>
+        <NamedIndividual IRI="#NorthAtlanticRightWhale"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Econological"/>
         <NamedIndividual IRI="#Omnivore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whale"/>
+        <NamedIndividual IRI="#Orca"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Ocean"/>
         <NamedIndividual IRI="#Pacific"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Dolphin"/>
+        <NamedIndividual IRI="#PantropicalSpottedDolphin"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Family"/>
         <NamedIndividual IRI="#Phocidae"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Seal"/>
+        <NamedIndividual IRI="#RingedSeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#CourtshipDisplay"/>
         <NamedIndividual IRI="#RitualizedMovement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Otter"/>
+        <NamedIndividual IRI="#SeaOtter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dolphin"/>
+        <NamedIndividual IRI="#ShortBeakedCommonDolphin"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#PolarBear"/>
@@ -618,8 +730,28 @@
         <NamedIndividual IRI="#SouthAmerica"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Seal"/>
+        <NamedIndividual IRI="#SouthernElephantSeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whale"/>
+        <NamedIndividual IRI="#SpermWhale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dolphin"/>
+        <NamedIndividual IRI="#SpinnerDolphin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeaLion"/>
+        <NamedIndividual IRI="#StellerSeaLion"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Family"/>
         <NamedIndividual IRI="#Ursidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dolphin"/>
+        <NamedIndividual IRI="#Vaquita"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#CourtshipDisplay"/>
@@ -632,6 +764,14 @@
     <ClassAssertion>
         <Class IRI="#Habitat"/>
         <NamedIndividual IRI="#Water"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manatee"/>
+        <NamedIndividual IRI="#WestIndianManatee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dolphin"/>
+        <NamedIndividual IRI="#Risso&apos;sDolphin"/>
     </ClassAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasNeccessarytoReproduceOn"/>
