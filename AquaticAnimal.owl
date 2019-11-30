@@ -23,6 +23,9 @@
         <Class IRI="#AquaticAnimal"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#AquaticPlant"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Being"/>
     </Declaration>
     <Declaration>
@@ -51,6 +54,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#LandAnimal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LandPlant"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Manatee"/>
@@ -110,6 +116,9 @@
         <ObjectProperty IRI="#hasEcological"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasFood"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasHomeLandContinent"/>
     </Declaration>
     <Declaration>
@@ -129,6 +138,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isBondedByContinent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFoodOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isHarm"/>
@@ -155,6 +167,9 @@
         <DataProperty IRI="#hasFur"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#hasID"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#hasNumberofPopulation"/>
     </Declaration>
     <Declaration>
@@ -162,6 +177,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Africa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AmazonianManatee"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AmericaCountry"/>
@@ -177,6 +195,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Arctic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArgonautaArgo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Asia"/>
@@ -209,10 +230,25 @@
         <NamedIndividual IRI="#Carnivore"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Clam"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#CommonBottlenoseDolphin"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Cordgrass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crab"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#CriticallyEndangered"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuttlefish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Decapod"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DisplayOfAgonisticAbility"/>
@@ -225,6 +261,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dugong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eelgrass"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Endangered"/>
@@ -240,6 +279,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#FalseKillerWhale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fish"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GraySeal"/>
@@ -263,16 +305,25 @@
         <NamedIndividual IRI="#Herbivore"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#HoodedSeal"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#HourglassDolphin"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#HumpbackWhale"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Hydrilla"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Indian"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#JuanFurnandezFurSeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Krill"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Land"/>
@@ -282,6 +333,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#LeopardSeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lobster"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#LongFinnedPilotWhale"/>
@@ -294,6 +348,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MinkeWhale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mollusc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mollusk"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Monodontidae"/>
@@ -311,6 +371,12 @@
         <NamedIndividual IRI="#NorthAtlanticRightWhale"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#NorthernElephantSeal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Octopus"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Omnivore"/>
     </Declaration>
     <Declaration>
@@ -320,10 +386,19 @@
         <NamedIndividual IRI="#Pacific"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Palm"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#PantropicalSpottedDolphin"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Penguin"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Phocidae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prawn"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#RingedSeal"/>
@@ -335,10 +410,22 @@
         <NamedIndividual IRI="#SeaOtter"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SeaUrchin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shell"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ShortBeakedCommonDolphin"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Shrimp"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#SiberianPolarBear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SmallFish"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SouthAmerica"/>
@@ -353,7 +440,13 @@
         <NamedIndividual IRI="#SpinnerDolphin"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Squid"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#StellerSeaLion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TurtleGrass"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ursidae"/>
@@ -369,6 +462,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Water"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Welk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WestAfricanManatee"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WestIndianManatee"/>
@@ -418,12 +517,20 @@
         <Class IRI="#Animal"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#AquaticPlant"/>
+        <Class IRI="#Plant"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Dolphin"/>
         <Class IRI="#MarineMammals"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LandAnimal"/>
         <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LandPlant"/>
+        <Class IRI="#Plant"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Manatee"/>
@@ -490,6 +597,10 @@
         <NamedIndividual IRI="#Africa"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Manatee"/>
+        <NamedIndividual IRI="#AmazonianManatee"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Country"/>
         <NamedIndividual IRI="#AmericaCountry"/>
     </ClassAssertion>
@@ -508,6 +619,10 @@
     <ClassAssertion>
         <Class IRI="#Ocean"/>
         <NamedIndividual IRI="#Arctic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#ArgonautaArgo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Continent"/>
@@ -550,12 +665,32 @@
         <NamedIndividual IRI="#Carnivore"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Clam"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Dolphin"/>
         <NamedIndividual IRI="#CommonBottlenoseDolphin"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AquaticPlant"/>
+        <NamedIndividual IRI="#Cordgrass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#ConservationStatus"/>
         <NamedIndividual IRI="#CriticallyEndangered"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Cuttlefish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Decapod"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#CourtshipDisplay"/>
@@ -572,6 +707,10 @@
     <ClassAssertion>
         <Class IRI="#SeaCow"/>
         <NamedIndividual IRI="#Dugong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticPlant"/>
+        <NamedIndividual IRI="#Eelgrass"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ConservationStatus"/>
@@ -592,6 +731,10 @@
     <ClassAssertion>
         <Class IRI="#Whale"/>
         <NamedIndividual IRI="#FalseKillerWhale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Fish"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Seal"/>
@@ -622,6 +765,10 @@
         <NamedIndividual IRI="#Herbivore"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Seal"/>
+        <NamedIndividual IRI="#HoodedSeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Dolphin"/>
         <NamedIndividual IRI="#HourglassDolphin"/>
     </ClassAssertion>
@@ -630,12 +777,20 @@
         <NamedIndividual IRI="#HumpbackWhale"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AquaticPlant"/>
+        <NamedIndividual IRI="#Hydrilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Ocean"/>
         <NamedIndividual IRI="#Indian"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Seal"/>
         <NamedIndividual IRI="#JuanFurnandezFurSeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Krill"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Habitat"/>
@@ -648,6 +803,10 @@
     <ClassAssertion>
         <Class IRI="#Seal"/>
         <NamedIndividual IRI="#LeopardSeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Lobster"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Whale"/>
@@ -664,6 +823,14 @@
     <ClassAssertion>
         <Class IRI="#Whale"/>
         <NamedIndividual IRI="#MinkeWhale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Mollusc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Mollusk"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Family"/>
@@ -686,6 +853,14 @@
         <NamedIndividual IRI="#NorthAtlanticRightWhale"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Seal"/>
+        <NamedIndividual IRI="#NorthernElephantSeal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Octopus"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Econological"/>
         <NamedIndividual IRI="#Omnivore"/>
     </ClassAssertion>
@@ -698,12 +873,24 @@
         <NamedIndividual IRI="#Pacific"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#LandPlant"/>
+        <NamedIndividual IRI="#Palm"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Dolphin"/>
         <NamedIndividual IRI="#PantropicalSpottedDolphin"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Penguin"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Family"/>
         <NamedIndividual IRI="#Phocidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Prawn"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Seal"/>
@@ -718,12 +905,28 @@
         <NamedIndividual IRI="#SeaOtter"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#SeaUrchin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Shell"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Dolphin"/>
         <NamedIndividual IRI="#ShortBeakedCommonDolphin"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Shrimp"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#PolarBear"/>
         <NamedIndividual IRI="#SiberianPolarBear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#SmallFish"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Continent"/>
@@ -742,8 +945,16 @@
         <NamedIndividual IRI="#SpinnerDolphin"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Squid"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#SeaLion"/>
         <NamedIndividual IRI="#StellerSeaLion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AquaticPlant"/>
+        <NamedIndividual IRI="#TurtleGrass"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Family"/>
@@ -766,6 +977,14 @@
         <NamedIndividual IRI="#Water"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AquaticAnimal"/>
+        <NamedIndividual IRI="#Welk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manatee"/>
+        <NamedIndividual IRI="#WestAfricanManatee"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Manatee"/>
         <NamedIndividual IRI="#WestIndianManatee"/>
     </ClassAssertion>
@@ -773,10 +992,859 @@
         <Class IRI="#Dolphin"/>
         <NamedIndividual IRI="#Risso&apos;sDolphin"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#AmazonianManatee"/>
+        <NamedIndividual IRI="#Vulnerable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#AmericanPolarBear"/>
+        <NamedIndividual IRI="#Vulnerable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#AmericanPolarBear"/>
+        <NamedIndividual IRI="#BeardedSeal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#AmericanPolarBear"/>
+        <NamedIndividual IRI="#BelugaWhale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#AmericanPolarBear"/>
+        <NamedIndividual IRI="#BowheadWhale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#AmericanPolarBear"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#AmericanPolarBear"/>
+        <NamedIndividual IRI="#HoodedSeal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#AmericanPolarBear"/>
+        <NamedIndividual IRI="#Narwhal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#AmericanPolarBear"/>
+        <NamedIndividual IRI="#RingedSeal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#BeardedSeal"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#BeardedSeal"/>
+        <NamedIndividual IRI="#Clam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#BeardedSeal"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#BeardedSeal"/>
+        <NamedIndividual IRI="#Shrimp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#BeardedSeal"/>
+        <NamedIndividual IRI="#Welk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#CommonBottlenoseDolphin"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#CommonBottlenoseDolphin"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#Dugong"/>
+        <NamedIndividual IRI="#Vulnerable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Dugong"/>
+        <NamedIndividual IRI="#Palm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#GraySeal"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#GraySeal"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#GraySeal"/>
+        <NamedIndividual IRI="#Decapod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#GraySeal"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#GraySeal"/>
+        <NamedIndividual IRI="#Krill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#GraySeal"/>
+        <NamedIndividual IRI="#Lobster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#GraySeal"/>
+        <NamedIndividual IRI="#Mollusc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#GraySeal"/>
+        <NamedIndividual IRI="#Octopus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#GuadalupeFurSeal"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#GuadalupeFurSeal"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#GuadalupeFurSeal"/>
+        <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#HaborSeal"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HaborSeal"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HaborSeal"/>
+        <NamedIndividual IRI="#Decapod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HaborSeal"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HaborSeal"/>
+        <NamedIndividual IRI="#Krill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HaborSeal"/>
+        <NamedIndividual IRI="#Lobster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HaborSeal"/>
+        <NamedIndividual IRI="#Mollusc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HaborSeal"/>
+        <NamedIndividual IRI="#Shell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HaborSeal"/>
+        <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+        <NamedIndividual IRI="#Decapod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+        <NamedIndividual IRI="#Krill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+        <NamedIndividual IRI="#Lobster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+        <NamedIndividual IRI="#Prawn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+        <NamedIndividual IRI="#Shrimp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#HawaiianMonkSeal"/>
+        <NamedIndividual IRI="#Endangered"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HawaiianMonkSeal"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HawaiianMonkSeal"/>
+        <NamedIndividual IRI="#Decapod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HawaiianMonkSeal"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HawaiianMonkSeal"/>
+        <NamedIndividual IRI="#Krill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HawaiianMonkSeal"/>
+        <NamedIndividual IRI="#Lobster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HawaiianMonkSeal"/>
+        <NamedIndividual IRI="#Octopus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HawaiianMonkSeal"/>
+        <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#HoodedSeal"/>
+        <NamedIndividual IRI="#Vulnerable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HoodedSeal"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HoodedSeal"/>
+        <NamedIndividual IRI="#Decapod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HoodedSeal"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HoodedSeal"/>
+        <NamedIndividual IRI="#Krill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HoodedSeal"/>
+        <NamedIndividual IRI="#Lobster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#HourglassDolphin"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HourglassDolphin"/>
+        <NamedIndividual IRI="#SmallFish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#HourglassDolphin"/>
+        <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#JuanFurnandezFurSeal"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#JuanFurnandezFurSeal"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#JuanFurnandezFurSeal"/>
+        <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#LeopardSeal"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#LeopardSeal"/>
+        <NamedIndividual IRI="#Penguin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#MarineOtter"/>
+        <NamedIndividual IRI="#Endangered"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#MarineOtter"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#MarineOtter"/>
+        <NamedIndividual IRI="#Decapod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#MarineOtter"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#MarineOtter"/>
+        <NamedIndividual IRI="#Krill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#MarineOtter"/>
+        <NamedIndividual IRI="#Lobster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#MarineOtter"/>
+        <NamedIndividual IRI="#Mollusk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#MarineOtter"/>
+        <NamedIndividual IRI="#Shrimp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#NorthernElephantSeal"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#NorthernElephantSeal"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#NorthernElephantSeal"/>
+        <NamedIndividual IRI="#LeopardSeal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#NorthernElephantSeal"/>
+        <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#PantropicalSpottedDolphin"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#PantropicalSpottedDolphin"/>
+        <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#RingedSeal"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#RingedSeal"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#RingedSeal"/>
+        <NamedIndividual IRI="#Shrimp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#SeaOtter"/>
+        <NamedIndividual IRI="#Endangered"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SeaOtter"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SeaOtter"/>
+        <NamedIndividual IRI="#Decapod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SeaOtter"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SeaOtter"/>
+        <NamedIndividual IRI="#Krill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SeaOtter"/>
+        <NamedIndividual IRI="#Lobster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SeaOtter"/>
+        <NamedIndividual IRI="#Mollusc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SeaOtter"/>
+        <NamedIndividual IRI="#SeaUrchin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#ShortBeakedCommonDolphin"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#ShortBeakedCommonDolphin"/>
+        <NamedIndividual IRI="#Octopus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#ShortBeakedCommonDolphin"/>
+        <NamedIndividual IRI="#SmallFish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#ShortBeakedCommonDolphin"/>
+        <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#SiberianPolarBear"/>
+        <NamedIndividual IRI="#Vulnerable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SiberianPolarBear"/>
+        <NamedIndividual IRI="#BeardedSeal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SiberianPolarBear"/>
+        <NamedIndividual IRI="#BelugaWhale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SiberianPolarBear"/>
+        <NamedIndividual IRI="#BowheadWhale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SiberianPolarBear"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SiberianPolarBear"/>
+        <NamedIndividual IRI="#HoodedSeal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SiberianPolarBear"/>
+        <NamedIndividual IRI="#Narwhal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SiberianPolarBear"/>
+        <NamedIndividual IRI="#RingedSeal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#SouthernElephantSeal"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SouthernElephantSeal"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SouthernElephantSeal"/>
+        <NamedIndividual IRI="#LeopardSeal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SouthernElephantSeal"/>
+        <NamedIndividual IRI="#Shrimp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#SpinnerDolphin"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SpinnerDolphin"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#SpinnerDolphin"/>
+        <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#Vaquita"/>
+        <NamedIndividual IRI="#CriticallyEndangered"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Vaquita"/>
+        <NamedIndividual IRI="#Crab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Vaquita"/>
+        <NamedIndividual IRI="#Decapod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Vaquita"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Vaquita"/>
+        <NamedIndividual IRI="#Krill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Vaquita"/>
+        <NamedIndividual IRI="#Lobster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Vaquita"/>
+        <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#WestAfricanManatee"/>
+        <NamedIndividual IRI="#Vulnerable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#WestAfricanManatee"/>
+        <NamedIndividual IRI="#Mollusc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#WestIndianManatee"/>
+        <NamedIndividual IRI="#Vulnerable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#Risso&apos;sDolphin"/>
+        <NamedIndividual IRI="#LeastConcern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Risso&apos;sDolphin"/>
+        <NamedIndividual IRI="#ArgonautaArgo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Risso&apos;sDolphin"/>
+        <NamedIndividual IRI="#Cuttlefish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Risso&apos;sDolphin"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Risso&apos;sDolphin"/>
+        <NamedIndividual IRI="#Octopus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Risso&apos;sDolphin"/>
+        <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#AmazonianManatee"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#AmericanPolarBear"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#BeardedSeal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#BelugaWhale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#BlueWhale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#BowheadWhale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#CaliforniaSeaLion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#CommonBottlenoseDolphin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#Dugong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#FalseKillerWhale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#GraySeal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#GrayWhale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#GuadalupeFurSeal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#HaborSeal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#HawaiianMonkSeal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#HoodedSeal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#HourglassDolphin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#HumpbackWhale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#JuanFurnandezFurSeal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#LeopardSeal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#LongFinnedPilotWhale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#MarineOtter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#MinkeWhale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#Narwhal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#NorthAtlanticRightWhale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#NorthernElephantSeal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#Orca"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">38</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#PantropicalSpottedDolphin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#RingedSeal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#SeaOtter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#ShortBeakedCommonDolphin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#SiberianPolarBear"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#SouthernElephantSeal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#SpermWhale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#SpinnerDolphin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#StellerSeaLion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#Vaquita"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#WestAfricanManatee"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#WestIndianManatee"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#Risso&apos;sDolphin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasNeccessarytoReproduceOn"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasFood"/>
+        <ObjectProperty IRI="#isFoodOf"/>
+    </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#hasOcean"/>
         <ObjectProperty IRI="#isBondedByContinent"/>
@@ -815,6 +1883,9 @@
         <ObjectProperty IRI="#hasEcological"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasFood"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
         <ObjectProperty IRI="#hasHomeLandContinent"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
@@ -834,6 +1905,9 @@
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#isBondedByContinent"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isFoodOf"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#isHarm"/>
@@ -860,6 +1934,9 @@
         <ObjectProperty IRI="#hasEcological"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasFood"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#hasHomeLandContinent"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
@@ -879,6 +1956,9 @@
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#isBondedByContinent"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isFoodOf"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#isHarm"/>
@@ -908,6 +1988,10 @@
         <Class IRI="#Animal"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFood"/>
+        <Class IRI="#MarineMammals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasHomeLandContinent"/>
         <Class IRI="#Animal"/>
     </ObjectPropertyDomain>
@@ -934,6 +2018,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isBondedByContinent"/>
         <Class IRI="#Ocean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFoodOf"/>
+        <Class IRI="#Being"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isHarm"/>
@@ -968,6 +2056,10 @@
         <Class IRI="#Econological"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFood"/>
+        <Class IRI="#Being"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasHomeLandContinent"/>
         <Class IRI="#Continent"/>
     </ObjectPropertyRange>
@@ -996,6 +2088,10 @@
         <Class IRI="#Continent"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFoodOf"/>
+        <Class IRI="#AquaticAnimal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#isInFamily"/>
         <Class IRI="#Family"/>
     </ObjectPropertyRange>
@@ -1011,6 +2107,9 @@
         <ObjectProperty IRI="#isUsuallyFound"/>
         <Class IRI="#Country"/>
     </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasID"/>
+    </FunctionalDataProperty>
     <DataPropertyDomain>
         <DataProperty IRI="#hasAverageDeathPerYear"/>
         <Class IRI="#MarineMammals"/>
@@ -1022,6 +2121,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="#hasFur"/>
         <Class IRI="#Animal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasID"/>
+        <Class IRI="#MarineMammals"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hasNumberofPopulation"/>
@@ -1044,6 +2147,10 @@
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#hasID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#hasNumberofPopulation"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
@@ -1051,6 +2158,33 @@
         <DataProperty IRI="#hasYear"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#AquaticPlant"/>
+                <Variable IRI="urn:swrl:var#y"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#MarineMammals"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Manatee"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#equal">
+                <Variable IRI="urn:swrl:var#x"/>
+                <Literal>WestIndianManatee</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasFood"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#y"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Animal</IRI>
