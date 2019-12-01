@@ -122,9 +122,6 @@
         <ObjectProperty IRI="#hasHomeLandContinent"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasLivingBehavior"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasMajorityLivingIn"/>
     </Declaration>
     <Declaration>
@@ -499,6 +496,156 @@
         </ObjectOneOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#Continent"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasOcean"/>
+            <Class IRI="#Ocean"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Country"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isLocatedIn"/>
+            <Class IRI="#Continent"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LandAnimal"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasMajorityLivingIn"/>
+            <NamedIndividual IRI="#Land"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFood"/>
+            <Class IRI="#Animal"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFood"/>
+            <Class IRI="#Plant"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isFoodOf"/>
+            <Class IRI="#Animal"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isHarm"/>
+            <Class IRI="#Animal"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasConservationStatus"/>
+            <Class IRI="#ConservationStatus"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCourtingBehavior"/>
+            <Class IRI="#CourtshipDisplay"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasEcological"/>
+            <Class IRI="#Econological"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isLivinIn"/>
+            <Class IRI="#Ocean"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isUsuallyFound"/>
+            <Class IRI="#Country"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasHomeLandContinent"/>
+            <Class IRI="#Continent"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMajorityLivingIn"/>
+            <Class IRI="#Habitat"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasNeccessarytoMoultOn"/>
+            <Class IRI="#Habitat"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasNeccessarytoReproduceOn"/>
+            <Class IRI="#Habitat"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isInFamily"/>
+            <Class IRI="#Family"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#hasAverageDeathPerYear"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#hasAveragePopulation"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarineMammals"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#hasFur"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#Ocean"/>
         <ObjectOneOf>
             <NamedIndividual IRI="#Antarctic"/>
@@ -507,6 +654,13 @@
             <NamedIndividual IRI="#Indian"/>
             <NamedIndividual IRI="#Pacific"/>
         </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ocean"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isBondedByContinent"/>
+            <Class IRI="#Continent"/>
+        </ObjectMinCardinality>
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Animal"/>
@@ -1859,9 +2013,6 @@
         <ObjectProperty IRI="#hasHomeLandContinent"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#hasLivingBehavior"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
         <ObjectProperty IRI="#hasMajorityLivingIn"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
@@ -1887,9 +2038,6 @@
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#hasHomeLandContinent"/>
-    </AsymmetricObjectProperty>
-    <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#hasLivingBehavior"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#hasMajorityLivingIn"/>
@@ -1938,9 +2086,6 @@
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#hasHomeLandContinent"/>
-    </IrreflexiveObjectProperty>
-    <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#hasLivingBehavior"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#hasMajorityLivingIn"/>
@@ -1993,10 +2138,6 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasHomeLandContinent"/>
-        <Class IRI="#Animal"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasLivingBehavior"/>
         <Class IRI="#Animal"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -2062,10 +2203,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasHomeLandContinent"/>
         <Class IRI="#Continent"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasLivingBehavior"/>
-        <Class IRI="#Habitat"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasMajorityLivingIn"/>
@@ -2369,11 +2506,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#hasHomeLandContinent</IRI>
         <Literal xml:lang="en">The property relation of Animal - Continent</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasLivingBehavior</IRI>
-        <Literal xml:lang="en">The property relation of Animal - LivingBehavior.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
