@@ -200,6 +200,12 @@
         <NamedIndividual IRI="#AustraliaCountry"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Balaenidae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Balaenopteridae"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#BeardedSeal"/>
     </Declaration>
     <Declaration>
@@ -239,6 +245,9 @@
         <NamedIndividual IRI="#Decapod"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Delphinidae"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#DisplayOfAgonisticAbility"/>
     </Declaration>
     <Declaration>
@@ -251,10 +260,16 @@
         <NamedIndividual IRI="#Dugong"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Dugongidae"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Eelgrass"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Endangered"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eschrichtiidae"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Europe"/>
@@ -347,6 +362,9 @@
         <NamedIndividual IRI="#Monodontidae"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Mustelidae"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Narwhal"/>
     </Declaration>
     <Declaration>
@@ -365,10 +383,16 @@
         <NamedIndividual IRI="#Octopus"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Odobenidae"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Omnivore"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Orca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Otariidae"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pacific"/>
@@ -384,6 +408,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Phocidae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phocoenidae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Physeteridae"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Prawn"/>
@@ -432,6 +462,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#StellerSeaLion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trichechidae"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#TurtleGrass"/>
@@ -800,6 +833,10 @@
         <NamedIndividual IRI="#AustraliaCountry"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Balaenopteridae"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Seal"/>
         <NamedIndividual IRI="#BeardedSeal"/>
     </ClassAssertion>
@@ -852,6 +889,10 @@
         <NamedIndividual IRI="#Decapod"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Delphinidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#CourtshipDisplay"/>
         <NamedIndividual IRI="#DisplayOfAgonisticAbility"/>
     </ClassAssertion>
@@ -868,12 +909,20 @@
         <NamedIndividual IRI="#Dugong"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Dugongidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#AquaticPlant"/>
         <NamedIndividual IRI="#Eelgrass"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ConservationStatus"/>
         <NamedIndividual IRI="#Endangered"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Eschrichtiidae"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Continent"/>
@@ -996,6 +1045,10 @@
         <NamedIndividual IRI="#Monodontidae"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Mustelidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Whale"/>
         <NamedIndividual IRI="#Narwhal"/>
     </ClassAssertion>
@@ -1020,12 +1073,20 @@
         <NamedIndividual IRI="#Octopus"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Odobenidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Econological"/>
         <NamedIndividual IRI="#Omnivore"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Whale"/>
         <NamedIndividual IRI="#Orca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Otariidae"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Ocean"/>
@@ -1046,6 +1107,14 @@
     <ClassAssertion>
         <Class IRI="#Family"/>
         <NamedIndividual IRI="#Phocidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Phocoenidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Physeteridae"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#AquaticAnimal"/>
@@ -1110,6 +1179,10 @@
     <ClassAssertion>
         <Class IRI="#SeaLion"/>
         <NamedIndividual IRI="#StellerSeaLion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Trichechidae"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#AquaticPlant"/>
@@ -1222,6 +1295,11 @@
         <NamedIndividual IRI="#Welk"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInFamily"/>
+        <NamedIndividual IRI="#BeardedSeal"/>
+        <NamedIndividual IRI="#Phocidae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasConservationStatus"/>
         <NamedIndividual IRI="#CommonBottlenoseDolphin"/>
         <NamedIndividual IRI="#LeastConcern"/>
@@ -1230,6 +1308,11 @@
         <ObjectProperty IRI="#hasFood"/>
         <NamedIndividual IRI="#CommonBottlenoseDolphin"/>
         <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInFamily"/>
+        <NamedIndividual IRI="#CommonBottlenoseDolphin"/>
+        <NamedIndividual IRI="#Delphinidae"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasConservationStatus"/>
@@ -1282,6 +1365,11 @@
         <NamedIndividual IRI="#Octopus"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInFamily"/>
+        <NamedIndividual IRI="#GraySeal"/>
+        <NamedIndividual IRI="#Phocidae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasConservationStatus"/>
         <NamedIndividual IRI="#GuadalupeFurSeal"/>
         <NamedIndividual IRI="#LeastConcern"/>
@@ -1295,6 +1383,11 @@
         <ObjectProperty IRI="#hasFood"/>
         <NamedIndividual IRI="#GuadalupeFurSeal"/>
         <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInFamily"/>
+        <NamedIndividual IRI="#GuadalupeFurSeal"/>
+        <NamedIndividual IRI="#Phocidae"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasConservationStatus"/>
@@ -1342,6 +1435,11 @@
         <NamedIndividual IRI="#Squid"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInFamily"/>
+        <NamedIndividual IRI="#HaborSeal"/>
+        <NamedIndividual IRI="#Phocidae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasConservationStatus"/>
         <NamedIndividual IRI="#HarpSeal"/>
         <NamedIndividual IRI="#LeastConcern"/>
@@ -1380,6 +1478,11 @@
         <ObjectProperty IRI="#hasFood"/>
         <NamedIndividual IRI="#HarpSeal"/>
         <NamedIndividual IRI="#Shrimp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInFamily"/>
+        <NamedIndividual IRI="#HarpSeal"/>
+        <NamedIndividual IRI="#Phocidae"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasConservationStatus"/>
@@ -1465,6 +1568,11 @@
         <ObjectProperty IRI="#hasFood"/>
         <NamedIndividual IRI="#HourglassDolphin"/>
         <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInFamily"/>
+        <NamedIndividual IRI="#HourglassDolphin"/>
+        <NamedIndividual IRI="#Delphinidae"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasConservationStatus"/>
@@ -1562,6 +1670,11 @@
         <NamedIndividual IRI="#Squid"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInFamily"/>
+        <NamedIndividual IRI="#PantropicalSpottedDolphin"/>
+        <NamedIndividual IRI="#Delphinidae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasConservationStatus"/>
         <NamedIndividual IRI="#RingedSeal"/>
         <NamedIndividual IRI="#LeastConcern"/>
@@ -1635,6 +1748,11 @@
         <ObjectProperty IRI="#hasFood"/>
         <NamedIndividual IRI="#ShortBeakedCommonDolphin"/>
         <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInFamily"/>
+        <NamedIndividual IRI="#ShortBeakedCommonDolphin"/>
+        <NamedIndividual IRI="#Delphinidae"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasConservationStatus"/>
@@ -1712,6 +1830,11 @@
         <NamedIndividual IRI="#Squid"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInFamily"/>
+        <NamedIndividual IRI="#SpinnerDolphin"/>
+        <NamedIndividual IRI="#Delphinidae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasConservationStatus"/>
         <NamedIndividual IRI="#Vaquita"/>
         <NamedIndividual IRI="#CriticallyEndangered"/>
@@ -1745,6 +1868,11 @@
         <ObjectProperty IRI="#hasFood"/>
         <NamedIndividual IRI="#Vaquita"/>
         <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInFamily"/>
+        <NamedIndividual IRI="#Vaquita"/>
+        <NamedIndividual IRI="#Phocoenidae"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasConservationStatus"/>
@@ -1790,6 +1918,11 @@
         <ObjectProperty IRI="#hasFood"/>
         <NamedIndividual IRI="#Risso&apos;sDolphin"/>
         <NamedIndividual IRI="#Squid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInFamily"/>
+        <NamedIndividual IRI="#Risso&apos;sDolphin"/>
+        <NamedIndividual IRI="#Delphinidae"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasID"/>
