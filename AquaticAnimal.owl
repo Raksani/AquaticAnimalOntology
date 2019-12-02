@@ -2161,27 +2161,19 @@
     <DLSafeRule>
         <Body>
             <ClassAtom>
-                <Class IRI="#AquaticPlant"/>
-                <Variable IRI="urn:swrl:var#y"/>
-            </ClassAtom>
-            <ClassAtom>
-                <Class IRI="#MarineMammals"/>
-                <Variable IRI="urn:swrl:var#x"/>
-            </ClassAtom>
-            <ClassAtom>
                 <Class IRI="#Manatee"/>
+                <NamedIndividual IRI="#WestIndianManatee"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#AquaticPlant"/>
                 <Variable IRI="urn:swrl:var#x"/>
             </ClassAtom>
-            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#equal">
-                <Variable IRI="urn:swrl:var#x"/>
-                <Literal>WestIndianManatee</Literal>
-            </BuiltInAtom>
         </Body>
         <Head>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#hasFood"/>
+                <NamedIndividual IRI="#WestIndianManatee"/>
                 <Variable IRI="urn:swrl:var#x"/>
-                <Variable IRI="urn:swrl:var#y"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
