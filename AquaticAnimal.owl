@@ -143,10 +143,10 @@
         <ObjectProperty IRI="#isInFamily"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isLivinIn"/>
+        <ObjectProperty IRI="#isLivinInOcean"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isLocatedIn"/>
+        <ObjectProperty IRI="#isLocatedInContinent"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isUsuallyFoundInCountry"/>
@@ -494,13 +494,6 @@
         </ObjectMinCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#Country"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#isLocatedIn"/>
-            <Class IRI="#Continent"/>
-        </ObjectExactCardinality>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#Habitat"/>
         <ObjectOneOf>
             <NamedIndividual IRI="#Land"/>
@@ -510,14 +503,14 @@
     <EquivalentClasses>
         <Class IRI="#LandAnimal"/>
         <ObjectExactCardinality cardinality="0">
-            <ObjectProperty IRI="#isLivinIn"/>
+            <ObjectProperty IRI="#isLivinInOcean"/>
             <Class IRI="#Ocean"/>
         </ObjectExactCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#MarineMammals"/>
         <ObjectMinCardinality cardinality="1">
-            <ObjectProperty IRI="#isLivinIn"/>
+            <ObjectProperty IRI="#isLivinInOcean"/>
             <Class IRI="#Ocean"/>
         </ObjectMinCardinality>
     </EquivalentClasses>
@@ -563,6 +556,13 @@
     <SubClassOf>
         <Class IRI="#AquaticPlant"/>
         <Class IRI="#Plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isLocatedInContinent"/>
+            <Class IRI="#Continent"/>
+        </ObjectMinCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dolphin"/>
@@ -2027,7 +2027,7 @@
         <ObjectProperty IRI="#hasNeccessarytoReproduceOn"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#isLocatedIn"/>
+        <ObjectProperty IRI="#isLocatedInContinent"/>
     </FunctionalObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#hasConservationStatus"/>
@@ -2069,10 +2069,10 @@
         <ObjectProperty IRI="#isInFamily"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#isLivinIn"/>
+        <ObjectProperty IRI="#isLivinInOcean"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#isLocatedIn"/>
+        <ObjectProperty IRI="#isLocatedInContinent"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#isUsuallyFoundInCountry"/>
@@ -2117,10 +2117,10 @@
         <ObjectProperty IRI="#isInFamily"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#isLivinIn"/>
+        <ObjectProperty IRI="#isLivinInOcean"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#isLocatedIn"/>
+        <ObjectProperty IRI="#isLocatedInContinent"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#isUsuallyFoundInCountry"/>
@@ -2178,11 +2178,11 @@
         <Class IRI="#MarineMammals"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isLivinIn"/>
+        <ObjectProperty IRI="#isLivinInOcean"/>
         <Class IRI="#MarineMammals"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isLocatedIn"/>
+        <ObjectProperty IRI="#isLocatedInContinent"/>
         <Class IRI="#Country"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -2242,11 +2242,11 @@
         <Class IRI="#Family"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#isLivinIn"/>
+        <ObjectProperty IRI="#isLivinInOcean"/>
         <Class IRI="#Ocean"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#isLocatedIn"/>
+        <ObjectProperty IRI="#isLocatedInContinent"/>
         <Class IRI="#Continent"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -2522,12 +2522,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#isLivinIn</IRI>
+        <IRI>#isLivinInOcean</IRI>
         <Literal xml:lang="en">The property relation of MarineMammals - Ocean.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#isLocatedIn</IRI>
+        <IRI>#isLocatedInContinent</IRI>
         <Literal xml:lang="en">The property relation of Country - Continent.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
